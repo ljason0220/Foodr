@@ -49,7 +49,7 @@ public class PlacesAPITest {
 
         //TODO: Properly write a unit test, this is dummy output to get something to show up.
         Result result = new Result("Bhutan House Restaurant", Cuisine.INDPAK, resultlocation);
-        Image image = new Image("https://maps.googleapis.com/maps/api/place/photo?maxwidth=360&maxheight=640&photoreference=CmRaAAAAF7GsQP1jXKPisOyVk7hIglUfvVJSj6CBrAiaf59MPzQp-8jwZNA8c2a6naKkYIsRLwU77jdPRIYcF2afhExWTjFLM9PsKJs_7NTyIBUCCiwPsXZZBIBvB9LizinHRqQcEhCroMAjE5tF6s2EdJhyJDuZGhTNs4Peoyx8hsnWvxBCqy4Q7FYnRg&key=AIzaSyBh8B5f3UDqG9l_OacvC6eh08MeCvSDVMo", result);
+        Image image = new Image("https://maps.googleapis.com/maps/api/place/photo?maxwidth=360&maxheight=640&photoreference=CmRaAAAAF7GsQP1jXKPisOyVk7hIglUfvVJSj6CBrAiaf59MPzQp-8jwZNA8c2a6naKkYIsRLwU77jdPRIYcF2afhExWTjFLM9PsKJs_7NTyIBUCCiwPsXZZBIBvB9LizinHRqQcEhCroMAjE5tF6s2EdJhyJDuZGhTNs4Peoyx8hsnWvxBCqy4Q7FYnRg&key=ZZZZZZZZZZZZZZZZZZZZZZZZ", result);
         result.addImage(image);
         expectedResults.add(result);
 

@@ -32,7 +32,7 @@ import static java.lang.Math.min;
 
 public class PlacesAPI {
     /** Secure storage of API key */
-    private static String key = "AIzaSyBh8B5f3UDqG9l_OacvC6eh08MeCvSDVMo";
+    private static String key = "ZZZZZZZZZZZZZZZZZZZZZZ";
     /** Global variable used for testing */
     public static boolean onlyOpen = false;
 
