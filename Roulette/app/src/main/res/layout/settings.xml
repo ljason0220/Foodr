@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jason.roulette.MainActivity"
+    tools:layout_editor_absoluteX="16dp"
+    tools:layout_editor_absoluteY="97dp">
+    <!--tools:layout_editor_absoluteY="81dp">-->
+
+    <TextView
+        android:id="@+id/PriceRange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Price Range"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>/>
+
+    <Spinner
+        android:id="@+id/price_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/price_spinner_options"
+        app:layout_constraintStart_toStartOf="@+id/PriceRange"
+        app:layout_constraintTop_toBottomOf="@+id/PriceRange"></Spinner>
+
+    <TextView
+        android:id="@+id/Distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:backgroundTint="@android:color/white"
+        android:text="Distance"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/price_spinner"></TextView>/>
+
+    <Spinner
+        android:id="@+id/distance_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/distance_spinner_options"
+        app:layout_constraintStart_toStartOf="@+id/Distance"
+        app:layout_constraintTop_toBottomOf="@+id/Distance"></Spinner>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Foodr</string>
+
+    <string name="price_spinner">Price Range</string>
+
+    <string-array name="price_spinner_options">
+        <item>$</item>
+        <item>$$</item>
+        <item>$$$</item>
+        <item>$$$$</item>
+    </string-array>
+
+    <string-array name="distance_spinner_options">
+        <item>Under 2km</item>
+        <item>Under 4km</item>
+        <item>Under 8km</item>
+    </string-array>
+</resources>

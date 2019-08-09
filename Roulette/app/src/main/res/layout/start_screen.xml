@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jason.roulette.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+    <!--tools:layout_editor_absoluteY="81dp">-->
+    <TextView
+        android:id="@+id/Roulette"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@android:color/white"
+        android:text="@string/app_name"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/Start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>/>
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="124dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="17dp"
+        android:onClick="showStock"
+        android:text="Start"
+        app:layout_constraintBottom_toTopOf="@+id/Instructions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Roulette"></Button>/>
+
+    <Button
+        android:id="@+id/Instructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:onClick="showInstructions"
+        android:text="Instructions"
+        app:layout_constraintBottom_toTopOf="@+id/Settings"
+        app:layout_constraintStart_toStartOf="@+id/Settings"
+        app:layout_constraintTop_toBottomOf="@+id/Start"></Button>
+
+    <!--<Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:onClick="showPlaces"
+        android:text="Find Places"
+        app:layout_constraintBottom_toTopOf="@+id/Settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Instructions" />/>-->
+
+    <Button
+        android:id="@+id/Settings"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:onClick="showSettings"
+        android:text="Settings"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Instructions"></Button>
+</android.support.constraint.ConstraintLayout>
